@@ -1,0 +1,14 @@
+site:
+  title: 'Learn Node.js'
+  url: https://learnnodejs.ca
+  start_page: main::introduction.adoc
+content:
+  branches: master
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: main
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

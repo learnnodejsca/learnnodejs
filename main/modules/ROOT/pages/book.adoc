@@ -1,0 +1,35 @@
+= Learn Node.js
+:Author: Alex Kluew
+:Email: info@getaclue.me
+:Date: 2020-04-26
+:Revision: v3.0.0
+:doctype: book
+:imagesdir: images
+:sectnums:
+:toc:
+:toclevels: 4
+
+[dedication]
+== Dedication
+
+[.lead.text-center]
+_dedicated to Laura_ 
+
+[.lead.text-center]
+Thank you for your support and encouragement.
+
+<<<
+
+include::introduction.adoc[]
+
+include::sequelize.js.adoc[]
+
+include::seo.adoc[]
+
+include::maps.adoc[]
+
+include::pagination.adoc[]
+
+include::users.adoc[]
+
+include::deployment.adoc[]

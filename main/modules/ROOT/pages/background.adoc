@@ -1,0 +1,35 @@
+== Introduction
+
+=== Background
+
+Project “Elderoost” is a full-stack senior residence application in which users can search, review, and add residence information. It was created with intention of providing useful information about a specific retirement home for future residents. Moreover, there was an aim that the application would provide a safe space for residents of these senior residences to review their living environments. Some of the general requirements that I created for this project :
+
+* [*] Node.js
+* [*] PostgreSQL database
+* [*] SEO optimized
+* [*] Responsive design
+* [*] Fast loading times
+* [*] JavaScript codebase
+* [*] Minimum dependencies
+* [*] Interactive maps
+* [*] Legible font
+* [*] Handlebars templates
+* [*] Fast search
+* [*] User accounts
+* [*] Administrative Dashboard
+* [*] Comments
+* [*] Reviews
+* [*] News Articles
+* [*] Email notifications
+
+Prior to beginning the project, I created several requirements. First and foremost, I wanted it to be written in JavaScript using Node.js. Next, I wanted to use the PostgreSQL database as my data storage of choice. One of the reasons for selecting PostgreSQL is that it has a wonderful PostGIS extension which makes interacting with geolocation data much easier than other solutions.
+
+The end goal of the application would be to index well in the search engines. This is done primarily through search engine optimization (SEO) work, responsive design, and fast loading times on mobile and on desktop. To stick to these requirements, I made sure to use the minimum amount of  dependencies that I needed in order to run the project.
+
+Moreover, I wanted the actual search to be visual and done via interactions with some sort of a map. The reason for this was simple, when searching for a new residence I wanted the user to search by area first and other information second. Map interface when it comes to searching by geographical area comes natural.
+
+I wanted to provide to the user a secondary way of searching that was not reliant on a map. Thus, Elderoost should retrieve residence entities through textual search means and not visual alone. Next, I wanted to ensure that there were secure user accounts. This decision was two fold : (1) I wanted to keep the data and not offload it to a 3rd party social login solution, and (2) I wanted to obtain email addresses of users such that I could notify them of product updates. Thus, I also had a requirement that there would be automated notifications to the users via email.
+
+Finally, the project should maintain some sort of an administrative dashboard to manage all of the data. Therefore, there needed to be some kind of roles implementation for authorization part of the application. A regular user shouldn’t be able to access this dashboard.
+
+I hope that you can see similarities of this project that could be transferred to your daily JavaScript workings. Features, such as secure user accounts, are useful and are required in many modern applications.

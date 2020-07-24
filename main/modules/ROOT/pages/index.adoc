@@ -1,0 +1,7 @@
+== Dedication
+
+[.lead.text-center]
+_dedicated to Laura_ 
+
+[.lead.text-center]
+Thank you for your support and encouragement.
