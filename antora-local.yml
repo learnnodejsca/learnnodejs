@@ -5,7 +5,7 @@ site:
 content:
   branches: master
   sources:
-    - url: https://github.com/getaclue/learnnodejs.git
+    - url: .
       branches: HEAD
       start_path: main
 ui:
