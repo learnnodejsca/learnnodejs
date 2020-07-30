@@ -1,10 +1,10 @@
-== SEO
+= SEO
 
 Search engine optimization (SEO) is a beast of its own and would require its own book. In this chapter I will introduce you to some tips and good to haves in your application if it is facing the public and search engines may crawl it. If it is an internal project then perhaps this section could be totally skipped.
 
 Elderoost's SEO goals were to have good ranking for minimum amount of effort. In other words, I wanted to rank on the front page but anywhere within that page. To ensure best possible results available, I used the best bang for buck implementation of SEO in our project. I've  included a checklist at the end of the section that can help you with SEO of your project.
 
-=== Minimum SEO
+== Minimum SEO
 
 For each page, I recommend the following tags to be present in the `<head>` section of your application layout at the minimum. 
 
@@ -46,7 +46,7 @@ I usually spend some time per project on https://adwords.google.com/aw/keywordpl
 
 <<<
 
-=== Schema.org
+== Schema.org
 
 In this section we will be going over the ways that we can improve our project’s search engine physical appearance and results after we go live. Elderoost project comes with complete example of what an optimized application should aim to have. Every relevant page has the specific meta tags and descriptions set that are dynamic, and pertinent to the page’s context.
 
@@ -141,7 +141,7 @@ Download complementary completed `views/residences/show.hbs` template https://bi
 
 <<<
 
-=== Sitemap
+== Sitemap
 
 Do not forget to also send a sitemap representation of the application to the search engines. This way all of the SEO work will be actually found once their bots visit your submitted URLs in the sitemap format. In our procedure we will be using the sitemap module. It creates the proper sitemap for us which we will then gzip on our own. The only manual task for now is the generation of the residences URL text file as input to the sitemap.
 
@@ -184,7 +184,7 @@ All you have to do now is figure out how to submit the sitemap url to the search
 
 <<<
 
-=== Social share images
+== Social share images
 
 Before working on this section in the project, we had decent SEO because we worked on it in the previous section. With our current code, when someone shares our link on social media only textual data will be available to describe our URL due to our current tags. So, when someone shares the link to the project on twitter, for example, then the following card will pop up based on our provided meta-data : 
 
@@ -314,7 +314,7 @@ Another solution would be to use a service that specializes in generating screen
 
 <<<
 
-=== SEO Checklist
+== SEO Checklist
 Here is a checklist that will help you stay on track with SEO on your website or application
 
 * [ ] Switch To HTTPS

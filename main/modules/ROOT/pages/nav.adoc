@@ -1,15 +1,15 @@
 .Learn Node.js
 
-* xref:introduction.adoc[1. Introduction]
+* xref:introduction.adoc[Introduction]
 
-* xref:sequelize.js.adoc[2. Sequelize.js]
+* xref:sequelize.js.adoc[Sequelize.js]
 
-* xref:seo.adoc[3. SEO]
+* xref:seo.adoc[SEO]
 
-* xref:maps.adoc[4. Maps]
+* xref:maps.adoc[Maps]
 
-* xref:pagination.adoc[5. Pagination]
+* xref:pagination.adoc[Pagination]
 
-* xref:users.adoc[6. Users]
+* xref:users.adoc[Users]
 
-* xref:deployment.adoc[7. Deployment]
+* xref:deployment.adoc[Deployment]

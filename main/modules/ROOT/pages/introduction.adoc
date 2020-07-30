@@ -1,6 +1,6 @@
-== Introduction
+= Introduction
 
-=== Background
+== Background
 
 Project http://elderoostalpha.herokuapp.com[“Elderoost”] is a full-stack senior residence application in which users can search, review, and add residence information. It was created with intention of providing useful information about a specific retirement home for future residents. Moreover, there was an aim that the application would provide a safe space for residents of these senior residences to review their living environments. Some of the general requirements that I created for this project :
 
@@ -36,7 +36,7 @@ I hope that you can see similarities of this project that could be transferred t
 
 <<<
 
-=== Users
+== Users
 
 Prior to going through the code, I wanted to go through the three different users in the application and their individual use cases. This provided me some guidance during the building phase of the project. 
 
@@ -51,7 +51,7 @@ An admin user would then have access to all of the features of the guest user an
 
 <<<
 
-=== Architecture
+== Architecture
 
 One of the requirements for project Elderoost was to maintain the dependency list to a minimum.
 
@@ -109,7 +109,7 @@ Module responsible for generating a proper sitemap which is then submitted to th
 
 <<<
 
-=== Folder Structure
+== Folder Structure
 
 If we take a look at how node.js application works along with the express framework, we can see a close resemblance to the https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller[model-view-controller] (MVC) model. Thus, the basic idea about the project’s file structure is around the MVC architecture. It feels natural to structure the project this way.
 
@@ -184,7 +184,7 @@ The finished folder structure looks like this :
 
 <<<
 
-=== Templates
+== Templates
 
 Project Elderoost uses https://handlebarsjs.com/[handlebars] (hbs) templating language for displaying its HTML content. Handlebars is super easy to learn and get a hang off. It is one of the choices among several for the express viewing engine. I wont focus on the specifics and leave that up to you for some play. However, I believe that by going through the book and looking at the sample code you will be able to get the gist of the language without needing to look elsewhere.
 
@@ -490,7 +490,7 @@ Looking for completed `views/index.hbs` code? Download complementary `views/inde
 
 <<<
 
-=== Cascading style sheet
+== Cascading style sheet
 
 Project Elderoost was designed with https://webaim.org/resources/contrastchecker/[WCAG 2.0 AAA] color palette in mind. If you have suggestions or improvements, feel free to reach out and contact me. 
 
@@ -507,7 +507,7 @@ I used Block, Element, Modifier (BEM) css style convention for my naming of css 
 <<<
 
 [#forms]
-=== Forms
+== Forms
 
 I am going to assume for the duration of the project that you are aware about one of the most common security flaws for a website : cross site request forgery (csrf).footnote:[see https://en.wikipedia.org/wiki/Cross-site_request_forgery or https://owasp.org/www-community/attacks/csrf] In order to mitigate this attack, we are going to use the `csurf` node.js module. We first add it in our `routes/users.js` file like so
 

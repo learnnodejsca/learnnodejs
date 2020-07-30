@@ -1,4 +1,4 @@
-== Dedication
+= Dedication
 
 [.lead.text-center]
 _dedicated to Laura_ 

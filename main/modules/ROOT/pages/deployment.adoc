@@ -1,4 +1,4 @@
-== Deployment
+= Deployment
 
 Now that you are happy with your project and how it behaves on your local environment, you are probably looking for a way to share your project with the public. In this chapter, I will be going over the various tools and procedures that are available to you. However, I will focus on deploying our project to the https://heroku.com[heroku] platform.
 
@@ -10,7 +10,7 @@ synonymous with application being in the state that is being served to public an
 
 The deployment also depends on each project and the access to funds available. There are free solutions available that are perfect for small projects. However, once you start working with real projects, cost will have to play a factor in deciding how to deploy your application to production stage. Moreover, the cost and skills required to run the infastructure should also play a role.
 
-=== ngrok.com
+== ngrok.com
 
 You know how you cannot just easily share your `http://localhost:3000` project link with someone? You need to play with your system settings or your router setup. It can be a hassle and time consuming; and this is where ngrok shines.
 
@@ -21,7 +21,7 @@ Ngrok is a wonderful step before production deployment. What ngrok allows you to
 
 Then you download their command line interface tool, as described on their website, and just run it. Once you are ready to share a working application, start the server on `localhost` and remember the `port`. When everything is running, run ngrok tool over the port that the application is running. That is all. Ngrok will do all of its magic for you and give you a link to share with your users or clients.
 
-=== Heroku
+== Heroku
 
 Deploying your project to heroku is one of the fastest and easiest solutions available out there. Heroku empowers you and enables you to focus on just your project. Why is that a big deal? Before running our node.js project, a server needs to be provisioned and setup. This takes time and resources. Only after the server and the environment is setup, then you can create some deployment procedure.
 
@@ -74,7 +74,7 @@ Meanwhile, I recommend to install the optional `Papertrail` plugin. It is a wond
 
 Finally, as I mentioned in the introduction to heroku, the platform has a very generous free tier. Then you can pay additional fees as you scale and the need for resources grows.
 
-=== Server
+== Server
 
 The most popular way to deploy applications is by the use of your own server. The biggest downside, if you consider it a down side of course, is that you have to do everything yourself or outsource that to someone. On the whole, there is a steep learning curve to server configuration and setup. However, the process is replicated once you learn it. If the knowledge is not necessary I still think this section is beneficial to read as I give a general overview.
 
@@ -88,12 +88,12 @@ For deploying of your server there are several solutions :
 . Colocation
 . In the cloud
 
-==== Colocation
+=== Colocation
 Colocation -- you rent physical space and put your physical server in a building that is usually called a data center. This space may be local or you may have to travel to it. Depending on your resources available. However, you would want your server to have good resources such that you can serve your customers as fast as possible.
 
 Sometimes these data centers have specific hardware that they sell, other times you may be required to build and bring the computer yourself.
 
-==== Cloud
+=== Cloud
 In the cloud, or in other words, renting your server resources from someone who is selling their hardware. This is usually, once again, done by the data providers like Linode and major software companies like Amazon Web Services, Google Cloud, Microsoft Azure. The only difference is the type of data center that it is. Otherwise, some data centers allow for both renting of physical hardware and of virtually allocated hardware. 
 
 This is the most common solution. People rent virtually allocated machines and then set them up as they need them.
@@ -103,7 +103,7 @@ This is the most common solution. People rent virtually allocated machines and t
 Remember, the more control you have about your infastructure the more risk you take for the running of the application(s). Think about redundancies and back-ups.
 ====
 
-==== Running Server
+=== Running Server
 
 Once you get everything running on a server, you will move into the maintenance phase of this current project. There will be a need to know when the application crashes or if the server goes down for some reason. It is probably a good idea for your server to use some 3rd party health check tool. You will want to be on top of your crashes so that your users experience the minimum amount of down time.
 
@@ -115,7 +115,7 @@ Don't forget to have at least several copies of your daily backups. I recommend 
 
 In addition you would want to use some kind of third party service for your error notifications. When picking on a provider, I would look at the different notification mechanisms that they have in place. Some of them even notify you when an error occurs via sms.
 
-==== Healthcheck Server
+==== Healthcheck of Server
 
 [NOTE]
 ====
@@ -137,7 +137,7 @@ app.use(`/status`, (req, res, next) => {
 
 The 3rd party service calls on this route on a regular basis. The function of the 3rd party service is to notify you in an event that the server does not respond with a proper message. Then the service would send you some kind of notification to say that your service did not respond in an expected manner.
 
-==== Healthcheck Databases
+==== Healthcheck of Databases
 
 Similarly to the server, you would like to know that your database (PostgreSQL in our instance) is working properly. Luckily, we can do that with the `authenticate` function that is provided to us with sequelize module. Our database healthcheck would look something like this
 
@@ -159,7 +159,7 @@ app.use(`/status/database`, (req, res, next) => {
 ----
 <1> The actual response varies according to the 3rd party service that you use
 
-==== Server setup checklist
+=== Server setup checklist
 
 Basic checklist to get our node.js application running on a server.
 

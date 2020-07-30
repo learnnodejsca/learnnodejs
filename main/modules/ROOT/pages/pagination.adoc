@@ -1,4 +1,4 @@
-== Pagination
+= Pagination
 [NOTE]
 In this chapter I walk you through a small project that you can use to add pagination to any route that you like in your projects.
 

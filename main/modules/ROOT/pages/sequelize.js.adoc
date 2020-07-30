@@ -3,9 +3,9 @@
 === Assumptions
 
 [Docs,Sequelize API Reference, https://sequelize.org/v5/]
-====
+____
 Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
-====
+____
 
 I assume that the database of choice, if different from https://www.postgresql.org/[PostgreSQL], is setup. What is great about sequelize is that it does not care about your underlying database. If database is supported, then you can switch databases by adjusting the configuration file and your code will mostly work the same.
 

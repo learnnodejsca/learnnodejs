@@ -1,4 +1,4 @@
-== Secure User Workflows
+= Secure User Workflows
 [NOTE]
 Secure user workflows are required in modern projects. In this chapter we are going to explore user logins, registration, security, and forgot password user flow designs, and implementation logic.
 
@@ -11,7 +11,7 @@ First, I wanted at least 4 screens : login, create an account, forgot password, 
 
 <<<
 
-=== Secure user sign-in
+== Secure user sign-in
 
 I consulted OWASP for the following four wiki pages that gave me the necessary background refresher that I needed on passwords. The sources were :
 
@@ -138,7 +138,7 @@ From there, I asked sequelize to run a query in our postgresql database and find
 
 <<<
 
-==== Secure user sessions
+=== Secure user sessions
 
 The session cookie object is added on startup of the project using the `client-sessions` library. 
 
@@ -205,7 +205,7 @@ Our app has two users : (a) registered user and (b) admin user. A registered use
 
 <<<
 
-=== Secure create user account
+== Secure create user account
 
 .Create account user flow design
 image::create-accnt-activity-screen.png[Create account user flow,align="center"]
@@ -331,7 +331,7 @@ Please refer to <<install-bcrypt,sign in>> code for bcrypt and sessions explanat
 
 <<<
 
-=== Secure user password resets
+== Secure user password resets
 
 I built my token reset mechanism around a central requirement of my application where a user cannot change their email by default. This ensures that the user’s email is the source of truth for a user in my app. So, creating a password reset tool also depends on this requirement. I will be sending a reset token to the user via their registered email address. The user will have to enter this token on a screen in order to gain access to the password reset screen. In total, this action for resetting a password will require three screens : 
 
@@ -642,7 +642,7 @@ We used the `bcrypt` library to generate a new password hash using the newly pro
 
 <<<
 
-=== User profiles
+== User profiles
 
 User profiles in our case are meant to be a starting place. It was deliberately decided into the construction of the user requirements that a user could not change an email address by themselves. It is our one rule in the application. Thus, if a user is requesting an email change they must go through the proper contact us channels.
 

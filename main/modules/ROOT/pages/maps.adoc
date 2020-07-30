@@ -1,4 +1,4 @@
-== Maps
+= Maps
 
 [NOTE]
 I will introduce you to GeoJSON format for passing data, Leaflet library for making maps, and Fuse for searching.
@@ -7,7 +7,7 @@ https://leafletjs.com/[Leaflet] is perhaps not only a map library but the main c
 
 <<<
 
-=== Leaflet.js
+== Leaflet.js
 
 https://leafletjs.com/[Leaflet]  was selected as the default map library for my project because it just works, is open-source, and has a plethora of useful plugins. Creation of a map is simple, I just needed to imbed the following code in my handebarsjs page to request the library and its css code :
 
@@ -44,7 +44,7 @@ See <<introduction.adoc#index-hbs,index.hbs>> explanation
 <<<
 
 [#geoJSON]
-=== GeoJSON
+== GeoJSON
 
 https://geojson.org/[GeoJSON] is a specification format that tells us of a way to represent geographic data in JSON object form. You can see the format below and it stores data in two ways: (i) single features and (ii) feature collections. A feature is a collection of data that describes a geographic object like a point or a shape. In this project, we will be using this format to work with our data and describe our map. By using a format, I can ensure some data integrity for the future as well because formats rarely change. This way we can structure our data however we want on the server and send it to the client UI to simply display. 
 
@@ -154,7 +154,7 @@ See <<introduction.adoc#index-hbs,index.hbs>> explanation for GeoJSON data injes
 
 <<<
 
-=== Markers vs. Clusters plugin
+== Markers vs. Clusters plugin
 
 .Marker vs. cluster screen view
 image::marker-v-cluster-screen.png[Marker vs. Cluster view]
@@ -216,7 +216,7 @@ See <<introduction.adoc#index-hbs,index.hbs>> explanation
 
 <<<
   
-=== Search Plugin
+== Search Plugin
 
 The https://github.com/naomap/leaflet-fusesearch[leaflet-fusesearch] plugin is very easy to integrate and it works extremely well out of the box with minimum configurations needed. For these reasons alone, I introduced this library and a new feature into my map. This is a second search feature in my project that allows a user to search in my UI. This search is specific to the leaflet library and depends on the provided data to be in geoJSON format. Please note that this library depends on the https://github.com/krisk/Fuse[Fuse.js] fuzzy search library for its searching functionality. Therefore, we need to load fuse.js search prior to loading this search library.
 
