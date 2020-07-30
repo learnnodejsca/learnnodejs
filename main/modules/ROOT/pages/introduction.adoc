@@ -244,7 +244,7 @@ The last thing that I want to cover is the two types of templates that typically
 <<<
 
 [#layout-hbs]
-==== views/layout.hbs
+=== views/layout.hbs
 
 In addition to the <<seo.adoc#layout-head,head>> code that I insert into my layout, I also add the following main navigation section that looks different depending on the type of the user and whether or not the user is logged in. It looks something like this:
 
@@ -355,7 +355,7 @@ Looking for `views/layout.hbs` completed code? Download complementary `views/lay
 <<<
 
 [#index-hbs]
-==== views/index.hbs
+=== views/index.hbs
 
 For this file we first begin by loading the dependencies to constructing our leaflet map. In our project it is a combination of provided library code and external calls. Feel free to modify this code as you wish just ensure the library versions are the same. I noticed at one point that some libraries do not jive well if some libraries are running on the latest everything. I recommend using the libraries provided with this book. The code looks like :
 

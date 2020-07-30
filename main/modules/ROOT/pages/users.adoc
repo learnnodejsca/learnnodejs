@@ -1,4 +1,5 @@
-= Secure User Workflows
+= Users
+
 [NOTE]
 Secure user workflows are required in modern projects. In this chapter we are going to explore user logins, registration, security, and forgot password user flow designs, and implementation logic.
 
