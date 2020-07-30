@@ -1,6 +1,6 @@
-== Sequelize.js
+= Sequelize.js
 
-=== Assumptions
+== Assumptions
 
 [Docs,Sequelize API Reference, https://sequelize.org/v5/]
 ____
@@ -16,7 +16,7 @@ For this project, we will be using PostgreSQL database as our data storage. More
 
 <<<
 
-=== Configuration
+== Configuration
 
 .Install sequelize and the required postgresql modules
 [source,shell]
@@ -72,8 +72,8 @@ sequelize
 
 There, our database is connected and it is started every time our node.js application starts because the code is placed in our `app.js` file.
 
-=== Models
-==== models/user.js
+== Models
+=== models/user.js
 
 To interact with the database, we better start off with modeling our data as per https://sequelize.org/v5/manual/getting-started.html[sequelize] documents. I did it by creating the following file in the folder `models` :
 
@@ -170,7 +170,7 @@ I have installed https://sequelize.org/v5/manual/getting-started.html[sequelize]
 
 <<<
 
-==== models/news_article.js
+=== models/news_article.js
 
 .NewsArticle model in user interface
 image::newsarticle-model-screenshot.png[NewsArticle model in user interface]
@@ -197,7 +197,7 @@ module.exports = NewsArticle;
 
 <<<
 
-==== models/review.js
+=== models/review.js
 
 .Review model in user interface
 image::review-model-screenshot.png[Review model in user interface]
@@ -227,7 +227,7 @@ module.exports = Review;
 
 <<<
 
-==== models/residence.js
+=== models/residence.js
 
 .Create models/residence.js
 [source,shell]
@@ -277,7 +277,7 @@ module.exports = Residence;
 <1> Import `NewsArticle` and `Review` models so that associations can be built with `Residence`
 <2> Build associations with `Residence` and other entities
 
-=== Migrations
+== Migrations
 
 While this project is feature complete at the moment, the database may change in the future. One approach for dealing with database changes is simply to make a backup of the database and run `sync({force:true})` to rebuild the database with new changes. Doing the process this way may work but will require some patching throughout the growth of database changes. 
 

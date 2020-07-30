@@ -1,9 +1,9 @@
 site:
-  title: 'Learn Node.js with Alex Kluew'
-  url: https://learnnodejs.ca
+  title: 'Learn Node.js by Alex Kluew'
+  url: https://course.learnnodejs.dev
   start_page: main::introduction.adoc
   keys:
-    google_analytics: 'UA-173451769-1'
+    google_analytics: 'UA-173618647-1'
 content:
   branches: master
   sources:
