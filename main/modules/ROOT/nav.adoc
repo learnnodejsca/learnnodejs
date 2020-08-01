@@ -1,8 +1,8 @@
-.Learn Node.js
+.Chapters
 
 * xref:introduction.adoc[Introduction]
 
-* xref:sequelize.js.adoc[Sequelize.js]
+* xref:sequelize.js.adoc[Database]
 
 * xref:seo.adoc[SEO]
 
@@ -10,6 +10,6 @@
 
 * xref:pagination.adoc[Pagination]
 
-* xref:users.adoc[Users]
+* xref:users.adoc[Authentication and Authorization]
 
 * xref:deployment.adoc[Deployment]
