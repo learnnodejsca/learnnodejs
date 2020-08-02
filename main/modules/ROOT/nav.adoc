@@ -1,15 +1,15 @@
 .Chapters
 
-* xref:introduction.adoc[Introduction]
+* xref:introduction.adoc[]
 
-* xref:sequelize.js.adoc[Database]
+* xref:sequelize.js.adoc[]
 
-* xref:seo.adoc[SEO]
+* xref:seo.adoc[]
 
-* xref:maps.adoc[Maps]
+* xref:maps.adoc[]
 
-* xref:pagination.adoc[Pagination]
+* xref:pagination.adoc[]
 
-* xref:users.adoc[Authentication and Authorization]
+* xref:users.adoc[]
 
-* xref:deployment.adoc[Deployment]
+* xref:deployment.adoc[]
