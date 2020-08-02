@@ -1,4 +1,7 @@
 = Maps
+Alex Kluew <info@getaclue.me>
+:sectanchors:
+:keywords: node.js,node,nodejs,node-js,javascript,js
 
 [NOTE]
 I will introduce you to GeoJSON format for passing data, Leaflet library for making maps, and Fuse for searching.

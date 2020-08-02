@@ -1,4 +1,7 @@
 = Deployment
+Alex Kluew <info@getaclue.me>
+:sectanchors:
+:keywords: node.js,node,nodejs,node-js,javascript,js
 
 Now that you are happy with your project and how it behaves on your local environment, you are probably looking for a way to share your project with the public. In this chapter, I will be going over the various tools and procedures that are available to you. However, I will focus on deploying our project to the https://heroku.com[heroku] platform.
 

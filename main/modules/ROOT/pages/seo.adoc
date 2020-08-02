@@ -1,4 +1,7 @@
 = SEO
+Alex Kluew <info@getaclue.me>
+:sectanchors:
+:keywords: node.js,node,nodejs,node-js,javascript,js
 
 Search engine optimization (SEO) is a beast of its own and would require its own book. In this chapter I will introduce you to some tips and good to haves in your application if it is facing the public and search engines may crawl it. If it is an internal project then perhaps this section could be totally skipped.
 

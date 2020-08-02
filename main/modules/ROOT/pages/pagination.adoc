@@ -1,4 +1,7 @@
 = Pagination
+Alex Kluew <info@getaclue.me>
+:sectanchors:
+:keywords: node.js,node,nodejs,node-js,javascript,js
 
 [NOTE]
 In this chapter I walk you through a small project that you can use to add pagination to any route that you like in your projects.

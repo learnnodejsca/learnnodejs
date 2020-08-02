@@ -1,4 +1,7 @@
 = Database
+Alex Kluew <info@getaclue.me>
+:sectanchors:
+:keywords: node.js,node,nodejs,node-js,javascript,js
 
 == Assumptions
 

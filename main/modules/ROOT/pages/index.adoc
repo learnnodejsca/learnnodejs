@@ -1,4 +1,5 @@
 = Dedication
+Alex Kluew <info@getaclue.me>
 
 [.lead.text-center]
 _dedicated to Laura_ 

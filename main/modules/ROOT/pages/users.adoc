@@ -1,4 +1,7 @@
 = Authentication and Authorization
+Alex Kluew <info@getaclue.me>
+:sectanchors:
+:keywords: node.js,node,nodejs,node-js,javascript,js
 
 [NOTE]
 Secure user workflows are required in modern projects. In this chapter we are going to explore user logins, registration, security, and forgot password user flow designs, and implementation logic.
