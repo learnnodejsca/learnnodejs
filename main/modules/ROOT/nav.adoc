@@ -1,5 +1,3 @@
-.Chapters
-
 * xref:introduction.adoc[]
 
 * xref:sequelize.js.adoc[]
