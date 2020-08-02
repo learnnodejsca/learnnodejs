@@ -1,5 +1,5 @@
 name: main
 title: Learn Node.js
-version: '1.5'
+version: '1.6'
 nav:
   - modules/ROOT/nav.adoc
