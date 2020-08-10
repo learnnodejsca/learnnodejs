@@ -1,6 +1,6 @@
 site:
   title: 'Learn Node.js by Alex Kluew'
-  url: https://course.learnnodejs.dev
+  url: https://learnnodejs.dev
   start_page: main::index.adoc
   keys:
     google_analytics: 'UA-173618647-1'
