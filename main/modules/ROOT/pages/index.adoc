@@ -6,9 +6,9 @@ What is this resource all about?
 Learn Node.js :
 
 * [*] is a free book
-* [*] teaches you fullstack javascript application development
+* [*] teaches fullstack javascript application development
 * [*] explains how to build features that are common in many applications
-* [*] shows you how all of the node.js pieces fit together
+* [*] shows how all of the node.js pieces fit together
 * [*] practices good software engineering
 
 Please share this book with a friend if you found it useful!
