@@ -1,8 +1,28 @@
-= Dedication
+= Preface
 Alex Kluew <info@getaclue.me>
 
+What is this resource all about?
+
+Learn Node.js :
+
+* [*] is a free book
+* [*] teaches you fullstack javascript application development
+* [*] explains how to build features that are common in many applications
+* [*] shows you how all of the node.js pieces fit together
+* [*] practices good software engineering
+
+Please share this book with a friend if you found it useful!
+
+Thank you for reading and for your time,
+
+Sincerely,
+
+Alex
+
+== Dedication
+
 [.lead.text-center]
-_dedicated to Laura_ 
+_dedicated to https://youtube.com/lastminutelaura[Laura]_ 
 
 [.lead.text-center]
 Thank you for your support and encouragement.
